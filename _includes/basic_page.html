@@ -2,12 +2,15 @@
   <div id="sidebar-button">
     <img src="/images/sidebar-button.png">
   </div>
-  <div id="post-info">
+  <div id="basic_page-info">
     <div id="cover-photo-container">
       <img id="cover-photo" src="/images/{{ page.cover }}">
     </div>
+    <div id="info-container">
+      <h1 id="title">{{ page.page_title }}</h1>
+    </div>
   </div>
-  <div class="post">
+  <div class="basic_page">
     {{ content }}
   </div>
 </div>
