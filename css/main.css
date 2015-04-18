@@ -206,6 +206,100 @@ a:hover {
   background-color: #333;
 }
 
+
+/*****************************************************************************/
+/*
+/* Basic Pages
+/*
+/*****************************************************************************/
+
+#date {
+  font-size: 16px;
+  padding-top: 0.25em;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #787878;
+}
+
+#cover-photo-container,
+#info-container {
+  display: block;
+}
+
+#info-container {
+  margin-top: 3em;
+}
+
+#title {
+  color: #4a4a4a;
+  margin-bottom: 0.35em;
+  font-size: 3em;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.basic_page {
+  line-height: 24px;
+  max-width: 725px;
+  clear: both;
+}
+
+.basic_page h2 {
+  margin-top: 1.25em;
+  margin-left: -0.5em;
+  margin-bottom: 1.25em;
+}
+
+.basic_page a,
+#about a {
+  border-bottom: 1px solid #8085C1;
+}
+
+.basic_page a:hover {
+  border: none;
+}
+
+/* standard */
+.basic_page pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.basic_page p {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 17px;
+  margin-bottom: 1.45em;
+  text-align: justify;
+}
+
+.basic_page ul, .post ol {
+  margin-left: 2.35em;
+  margin-bottom: 1.25em;
+}
+
+.basic_page code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.basic_page pre code {
+  border: none;
+}
+
+/* terminal */
+.basic_page pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.basic_page pre.terminal code {
+  background-color: #333;
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content
